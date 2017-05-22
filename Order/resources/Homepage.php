@@ -30,11 +30,11 @@ class Homepage {
           <h1>Orders Interface Resource</h1>
           <p>This is a service that interfaces with the local store orders service. List of resources offered:</p>
           <ul>
-            <li>GET <a href="/">/</a>This page</li>
+            <li>GET <a href="/">/</a> This page</li>
             <li>Orders</li>
             <ul>
-              <li>POST <a href="/orders">/orders</a> - Add order to the local order DB</li>
-              <li>GET <a href="/orders/1">/orders/{itemID}</a> - Retrieve specific order from the local store DB</li>
+              <li>POST /order - Add order to the local order DB</li>
+              <li>GET <a href="/order/1">/order/{itemID}</a> - Retrieve specific order from the local store DB</li>
             </ul>
           </ul>
         </body>
